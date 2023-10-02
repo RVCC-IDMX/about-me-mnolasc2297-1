@@ -1,0 +1,35 @@
+body {
+    font-family: 'Gabarito', cursive;
+    font-family: 'Julius Sans One', sans-serif;
+        background-color: #F6F0E9;
+        color: #0E0099;
+}
+    h1,h2,h3,h4,h5,h6 {
+    font-family:"Gabarito";
+    font-size: 40pt;
+}
+
+p {
+ font-size: 15pt;
+
+}
+
+header{
+    text-align: center;
+}
+
+#hero, footer {
+    color: #554AC7;
+    border: 6px solid #554AC7;
+    background-color: #C79F85;
+    text-align: center;
+    padding: 10px;
+}
+
+#hero img{
+    width: 300px;
+}
+
+#bio{
+    text-align: center;
+}
