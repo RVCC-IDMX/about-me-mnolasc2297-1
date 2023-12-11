@@ -4,14 +4,16 @@ body {
     font-family: 'Gabarito', cursive;
     font-family: 'Julius Sans One', sans-serif;
         background-color: #F6F0E9;
-        color: #0E0099;
+        color: darkolivegreen;
 }
     h1,h3,h4,h5,h6 {
     font-family:"Gabarito";
     font-size: 40pt;
-    text-align: center;
+    
             
 }
+
+
 
 h2{
     font-family:"Gabarito";
@@ -30,8 +32,8 @@ header{
 }
 
 #hero, footer {
-    color: #554AC7;
-    border: 6px solid #554AC7;
+    color: black;
+    border: 6px solid darkolivegreen;
     background-color: #C79F85;
     text-align: center;
     padding: 10px;
@@ -53,10 +55,12 @@ header{
 
 
 #Gallery{
-    margin: 10px;
-    padding: 10px;
-    border: 2px solid #554AC7;
-    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid darkolivegreen;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
 }
 
 
@@ -64,7 +68,7 @@ header{
 #lit{
     margin: 30px;
     padding: 10px;
-    border: 6px solid #554AC7;
+    border: 6px solid darkolivegreen;
     margin-bottom: auto;
     text-align: center;
 }
@@ -80,7 +84,7 @@ header{
     border: 6px solid black;
 }
 
-@media screen and (min-width: 60 em);{
+@media screen and (min-width: 60em) {
 
 }
 
@@ -103,11 +107,7 @@ margin-left: 1rem;
 }
 @media screen and (min-width: 100em){
 }    
-#Gallery {
-    display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-
-}     
+  
 
 hr{
     display: none;
@@ -142,7 +142,7 @@ margin-bottom: 1em;
 
 legend {
 
-    background-color: #554AC7;
+    background-color: darkolivegreen;
     color: #F6F0E9;
     padding: .5em;
 }
@@ -167,7 +167,7 @@ legend {
 
 #contact button{
 
- background-color: #554AC7;
+ background-color: darkolivegreen;
     color: #F6F0E9;
     border: black;
     max-width: 400px;
