@@ -56,6 +56,14 @@ header{
 
 }
 
+#lit{
+    margin: 30px;
+    padding: 10px;
+    border: 6px solid #554AC7;
+    margin-bottom: auto;
+    text-align: center;
+}
+
 #video{
     text-align: center;
 }
