@@ -1,5 +1,6 @@
     /* Main Body Details */
-    body {
+    html body {
+    overflow-x: hidden;
     margin: auto;
     font-family: 'Gabarito', cursive;
     font-family: 'Julius Sans One', sans-serif;
@@ -22,6 +23,28 @@
     header{
     text-align: center;
 }
+    .hamburger-button {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    cursor: pointer;
+ }
+
+ .nav-links {
+    display: none;
+    background-color: #333;
+    color: white;
+ }
+ .nav-links a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+ }
+ .nav-links a:hover {
+    background-color: #111;
+ }
     #hero, footer {
     color: black;
     border: 6px solid darkolivegreen;

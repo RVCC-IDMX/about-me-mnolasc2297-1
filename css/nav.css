@@ -58,10 +58,18 @@ margin-bottom: 1rem;
 
 /* navigation list */
 
+
+.navbar-links {
+    display: none;
+    background-color: #333;
+    color: white;
+} 
+
 .navbar-links li {
     list-style: none;
-    display: block;
+    display: none;
     padding: 0.5em 0;
+    background-color: whitesmoke;
 
 }
 
@@ -74,23 +82,21 @@ margin-bottom: 1rem;
     color: whitesmoke;
     background-attachment: darkolivegreen;
     font-size: 1rem;
-    padding: 1rem 1.25rem;
+    padding: 15px;
     letter-spacing: 2px;
     text-decoration: none;
-    display: inline-block;
+    display: block;
 
 
 }
 
-.navbar-links a:hover,
-.navbar-links a:focus {
+.navbar-links a:hover {
 color: darkolivegreen;
 background-color: whitesmoke;
 border-radius: 10px;
 outline: none;
-
-
 }
+
 /* 
 media query for non-mobile nav bar
 min-width set to width of nav elements 
