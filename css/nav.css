@@ -82,6 +82,19 @@ margin-bottom: 1rem;
 
 }
 
+.navbar-links a:hover,
+.navbar-links a:focus {
+color: darkolivegreen;
+background-color: whitesmoke;
+border-radius: 10px;
+outline: none;
+
+
+},
+
+
+
+
 
 
 
