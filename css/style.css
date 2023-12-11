@@ -7,12 +7,14 @@ body {
     h1,h3,h4,h5,h6 {
     font-family:"Gabarito";
     font-size: 40pt;
+    text-align: center;
             
 }
 
 h2{
     font-family:"Gabarito";
     font-size: 25pt;
+    text-align: center;
 
 }
 
@@ -72,6 +74,7 @@ header{
 
 #video{
     text-align: center;
+    border: 6px solid black;
 }
 
 @media screen and (min-width: 60 em);{
@@ -112,7 +115,12 @@ hr{
     grid: 1/-1;
 }
 
+/*Contact Form*/
 
+#FormElements {
+
+    display: grid;
+}
 
 
 
