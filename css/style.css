@@ -4,9 +4,17 @@ body {
         background-color: #F6F0E9;
         color: #0E0099;
 }
-    h1,h2,h3,h4,h5,h6 {
+    h1,h3,h4,h5,h6 {
     font-family:"Gabarito";
     font-size: 40pt;
+        
+    
+}
+
+h2{
+    font-family:"Gabarito";
+    font-size: 25pt;
+
 }
 
 p {
@@ -34,6 +42,19 @@ header{
     text-align: center;
 }
 
+#hobbies{
+    text-align: center;
+}
+
+
+#Gallery{
+    margin: 30px;
+    padding: 10px;
+    border: 6px solid #554AC7;
+    text-align: center;
+
+
+}
 
 #video{
     text-align: center;
