@@ -7,8 +7,7 @@ body {
     h1,h3,h4,h5,h6 {
     font-family:"Gabarito";
     font-size: 40pt;
-        
-    
+            
 }
 
 h2{
@@ -43,18 +42,20 @@ header{
 }
 
 #hobbies{
-    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
 }
 
 
 #Gallery{
-    margin: 30px;
+    margin: 10px;
     padding: 10px;
-    border: 6px solid #554AC7;
+    border: 2px solid #554AC7;
     text-align: center;
-
-
 }
+
+
 
 #lit{
     margin: 30px;
@@ -64,7 +65,55 @@ header{
     text-align: center;
 }
 
+#lit div {
+    max-width: 100%;
+    columns: 20rem;
+}
+
 #video{
     text-align: center;
 }
+
+@media screen and (min-width: 60 em);{
+
+}
+
+figure {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+figure img{
+    width: 100%;
+}
+
+figcaption {
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 15pt;
+margin-left: 1rem;
+
+}
+@media screen and (min-width: 100em){
+}    
+#Gallery {
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+}     
+
+hr{
+    display: none;
+}
+
+#Gallery h2 {
+
+    grid: 1/-1;
+}
+
+
+
+
+
 
