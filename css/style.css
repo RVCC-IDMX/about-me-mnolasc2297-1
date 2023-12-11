@@ -35,11 +35,13 @@
     /* Bio Section */
     #bio{
     text-align: center;
+    font-size: 15pt;
 }
     #hobbies{
     display: flex; 
     flex-direction: column; 
     align-items: center;
+    font-size: 15pt;
 }
     #PictureOfMe {
     display: block;
@@ -82,6 +84,7 @@
     grid: 1/-1;
 }  
     /* Blog Section */
+    
     #lit{
     margin: 30px;
     padding: 10px;
