@@ -120,8 +120,54 @@ hr{
 #FormElements {
 
     display: grid;
+    row-gap: 1em;
+}
+
+#contact {
+
+    padding: .5 rem;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+#fieldset {
+
+border: 2px solid black;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+
+legend {
+
+    background-color: #554AC7;
+    color: #F6F0E9;
+    padding: .5em;
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+ 
+    padding: .5em;
+    font-size: 1em;
+    
+}
+
+#contact ul {
+
+    list-style: none;
+    padding: opx;
 }
 
 
+#contact li {
+  margin: 1rem;
+}
 
+#contact button{
 
+ background-color: #554AC7;
+    color: #F6F0E9;
+    border: black;
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
+}
