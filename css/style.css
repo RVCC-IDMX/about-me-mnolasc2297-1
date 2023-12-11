@@ -1,173 +1,137 @@
-body {
-  
-  margin: auto;
+    /* Main Body Details */
+    body {
+    margin: auto;
     font-family: 'Gabarito', cursive;
     font-family: 'Julius Sans One', sans-serif;
-        background-color: #F6F0E9;
-        color: darkolivegreen;
+    background-color: #F6F0E9;
+    color: #556b2f;
 }
     h1,h3,h4,h5,h6 {
     font-family:"Gabarito";
-    font-size: 40pt;
-    
-            
+    font-size: 40pt;            
 }
-
-
-
-h2{
+    h2{
     font-family:"Gabarito";
     font-size: 25pt;
     text-align: center;
-
 }
-
-p {
- font-size: 15pt;
-
+    p {
+    font-size: 15pt;
 }
-
-header{
+    /* Header */
+    header{
     text-align: center;
 }
-
-#hero, footer {
+    #hero, footer {
     color: black;
     border: 6px solid darkolivegreen;
     background-color: #C79F85;
     text-align: center;
     padding: 10px;
 }
-
-#hero img{
+    #hero img{
     width: 300px;
 }
-
-#bio{
+    /* Bio Section */
+    #bio{
     text-align: center;
 }
-
-#hobbies{
+    #hobbies{
     display: flex; 
     flex-direction: column; 
     align-items: center;
 }
-
-
-#Gallery{
+    #PictureOfMe {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}   
+    /* Gallery Section */
+    #Gallery {
     margin: 5px;
     padding: 5px;
     border: 2px solid darkolivegreen;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
 }
-
-
-
-#lit{
+    @media screen and (min-width: 60em) {
+}
+    figure {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+    figure img{
+    width: 100%;
+}
+    figcaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15pt;
+    margin-left: 1rem;
+}
+    @media screen and (min-width: 100em){
+}    
+    hr {
+    display: none;
+}
+    #Gallery h2 {
+    grid: 1/-1;
+}  
+    /* Blog Section */
+    #lit{
     margin: 30px;
     padding: 10px;
     border: 6px solid darkolivegreen;
     margin-bottom: auto;
     text-align: center;
 }
-
-#lit div {
+    #lit div {
     max-width: 100%;
     columns: 20rem;
 }
-
-#video{
-    
+    #video{
     text-align: center;
     border: 6px solid black;
 }
 
-@media screen and (min-width: 60em) {
-
-}
-
-figure {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-}
-
-figure img{
-    width: 100%;
-}
-
-figcaption {
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 15pt;
-margin-left: 1rem;
-
-}
-@media screen and (min-width: 100em){
-}    
-  
-
-hr{
-    display: none;
-}
-
-#Gallery h2 {
-
-    grid: 1/-1;
-}
-
-/*Contact Form*/
-
-#FormElements {
-
+    /*Contact Form*/
+    #FormElements {
     display: grid;
     row-gap: 1em;
 }
-
-#contact {
-
+    #contact {
     padding: .5 rem;
     max-width: 600px;
     margin: 2rem auto;
 }
-
-#fieldset {
-
-border: 2px solid black;
-margin-top: 1em;
-margin-bottom: 1em;
+    #fieldset {
+    border: 2px solid black;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
-
-legend {
-
+    legend {
     background-color: darkolivegreen;
     color: #F6F0E9;
     padding: .5em;
 }
-
-#contact input, #contact textarea, #contact select, #contact button {
- 
+    #contact input, #contact textarea, #contact select, #contact button {
     padding: .5em;
     font-size: 1em;
-    
 }
-
-#contact ul {
+    #contact ul {
 
     list-style: none;
     padding: opx;
 }
-
-
-#contact li {
-  margin: 1rem;
+    #contact li {
+    margin: 1rem;
 }
-
-#contact button{
-
- background-color: darkolivegreen;
+    #contact button{
+    background-color: darkolivegreen;
     color: #F6F0E9;
     border: black;
     max-width: 400px;

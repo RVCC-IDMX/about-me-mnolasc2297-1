@@ -73,7 +73,7 @@ margin-bottom: 1rem;
 .navbar-links a {
     color: whitesmoke;
     background-attachment: darkolivegreen;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
     text-decoration: none;
@@ -90,17 +90,21 @@ border-radius: 10px;
 outline: none;
 
 
-},
-
-
-
-
-
-
-
-
+}
 /* 
 media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
+
+@media screen and (min-width: 60rem) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+    .navbar ul {
+        display: flex;
+        justify-content: space-between;
+
+    }

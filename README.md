@@ -21,3 +21,6 @@ Color Scheme I chose included
 
 ### Citations
 All added media belongs or was made by me
+
+### Comments
+Labeled each section in all files to make it easy to read
